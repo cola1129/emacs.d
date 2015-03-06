@@ -1,4 +1,3 @@
-
 ;;; This file bootstraps the configuration, which is divided into
 ;;; a number of other files.
 
@@ -40,7 +39,7 @@
 
 (require 'init-frame-hooks)
 (require 'init-xterm)
-(require 'init-themes)
+                                        ; (require 'init-themes)
 (require 'init-osx-keys)
 (require 'init-gui-frames)
 (require 'init-proxies)
@@ -81,9 +80,9 @@
 (require 'init-css)
 (require 'init-haml)
 (require 'init-python-mode)
-(require 'init-haskell)
-(require 'init-ruby-mode)
-(require 'init-rails)
+                                        ;(require 'init-haskell)
+                                        ;(require 'init-ruby-mode)
+                                        ;(require 'init-rails)
 (require 'init-sql)
 
 (require 'init-paredit)
